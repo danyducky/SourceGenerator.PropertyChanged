@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceGenerator.PropertyChanged", "src\SourceGenerator.PropertyChanged\SourceGenerator.PropertyChanged.csproj", "{80F0E662-A105-4189-B697-846193F63D40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A4696C7C-84B9-47CA-911C-73EB30C882EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F0A2A6B4-0F17-4B84-BE4F-49003E3B39A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SourceGenerator.PropertyChanged.Demo", "test\SourceGenerator.PropertyChanged.Demo\SourceGenerator.PropertyChanged.Demo.csproj", "{94D984BB-ACD8-4EA8-BF6E-CC2D7DEB507A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "items", "items", "{972EADEA-0573-4823-95D3-0041AD6572D4}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80F0E662-A105-4189-B697-846193F63D40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80F0E662-A105-4189-B697-846193F63D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80F0E662-A105-4189-B697-846193F63D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80F0E662-A105-4189-B697-846193F63D40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94D984BB-ACD8-4EA8-BF6E-CC2D7DEB507A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94D984BB-ACD8-4EA8-BF6E-CC2D7DEB507A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94D984BB-ACD8-4EA8-BF6E-CC2D7DEB507A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94D984BB-ACD8-4EA8-BF6E-CC2D7DEB507A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80F0E662-A105-4189-B697-846193F63D40} = {F0A2A6B4-0F17-4B84-BE4F-49003E3B39A2}
+		{94D984BB-ACD8-4EA8-BF6E-CC2D7DEB507A} = {A4696C7C-84B9-47CA-911C-73EB30C882EA}
+	EndGlobalSection
+EndGlobal
