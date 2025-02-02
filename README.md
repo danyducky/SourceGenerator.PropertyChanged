@@ -7,6 +7,7 @@ Auto implement the properties by backing fields with raising INotifyPropertyChan
 property_changed_backing_fields_convention = :camelcase or :pascalcase - backing fields naming convention.
 
 PascalCase requires underscore.
+
 property_changed_backing_fields_underscore = :boolean - should backing fields use underscore, false by default.
 
 property_changed_raise_method_names = :string[] - method names to raise the INotifyPropertyChanged.PropertyChanged event.
